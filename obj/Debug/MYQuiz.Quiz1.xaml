@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="MYQuiz.Quiz1"
+	Title="Quiz1"
+	BackgroundColor="Aqua">
+	<ContentPage.Content >
+		<StackLayout  HorizontalOptions="Center" VerticalOptions="Center">
+		<!--the layout part and the backgroundcolor control-->
+	<Label FontSize="25" Text="The word Australia is derived from Latin“terra australis incognita”？">
+			</Label> 
+			<!--the frist question of the quiz-->
+			<Label FontSize="12" Text="2 mark" TextColor="Navy"></Label>
+			<!--show the mark of this question -->
+	<Button Text="true" 
+			BackgroundColor="Olive"
+			> 
+
+	</Button>	
+	<!--Button for answer true and clicked event-->
+		<Button Text="false" 
+			BackgroundColor="Olive"
+			> 
+	</Button>
+		<!--Button for answer false and clicked event-->	
+
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="MYQuiz.RegisteredPage"
+	Title="RegisteredPage">
+	<ContentPage.Content>
+		<StackLayout BackgroundColor="Aqua" Margin="10,30,10,20"
+			Padding="10">
+			<!--the layout part and the backgroundcolor control -->
+		<Label Text="username" TextColor="Blue">
+		</Label>
+			<!--tell user the are use to type in username -->
+		<Entry Text="username">
+		</Entry>
+		<Label Text="password" TextColor="Blue">
+		</Label>
+			<!--tell user the are use to type in username -->
+		<Entry Text="password">
+		</Entry>
+			<!--the area type username -->
+
+
+		<Button Text="login" 
+				BackgroundColor="Lime"
+				Clicked="Handle_Clicked">
+		</Button>
+		<Button Text="logon" 
+				BackgroundColor="Lime"
+				>
+		</Button>
+			<!--the button will jump to quiz page -->
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

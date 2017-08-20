@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="MYQuiz.Quiz2"
+	Title="Quiz2"
+	BackgroundColor="Aqua">
+	<ContentPage.Content>
+		<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+		<!--the layout part and the backgroundcolor control-->
+			<Label FontSize="25" Text="How many states in Australia?" TextColor="Navy">
+			</Label>
+			<!--the second question of the quiz-->
+			<Label FontSize="12" Text="3 mark" TextColor="Navy"></Label>
+			<!--show the mark of this question -->
+			<Button Text="A. 5" TextColor="Black" BackgroundColor="Gray">
+			</Button>
+			<!--Button for answer A and clicked event-->
+			<Button Text="B. 6" TextColor="Black" BackgroundColor="Fuchsia"></Button>
+			<!--Button for answer B and clicked event-->
+			<Button Text="C. 7" TextColor="Black" BackgroundColor="Blue"></Button>
+			<!--Button for answer C and clicked event-->
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

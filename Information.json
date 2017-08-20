@@ -1,0 +1,99 @@
+﻿
+[
+    { 
+        "id" : "MyQuizPage",
+    	"title": "MainPage",
+        "page" [
+        {"id": 1, "text": "Welcome to Qu's Quiz!", "type": "textbox"},
+  		{"id": 2, "text": "I want registered", "type": "button", "help":"go registered page"},
+        ]
+    },
+    
+    { 
+        "id" : "RegisteredPage",
+    	"title": "registered",
+        "page" [
+        {"id": 1, "text": "username", "type": "textbox" "help":"Your username"},
+        {"id": 2, "text": "Quiz1", "type": "button"},
+        ]
+    },
+    
+    { 
+        "id" : "MainQuizPage",
+    	["title": "MasterPage",
+        "page" [
+        {"id": 1, "text": "Quiz1", "type": "button","help":"go quiz1"},
+  		{"id": 2, "text": "Quiz2", "type": "button","help":"go quiz2"},
+        {"id": 3, "text": "Quiz3", "type": "button","help":"go quiz3"},
+  		{"id": 4, "text": "Quiz4", "type": "button","help":"go quiz4"},
+        {"id": 5, "text": "Quiz5", "type": "button","help":"go quiz5"},
+  		{"id": 6, "text": "subimt", "type": "button","help":"go submit"},
+        ]
+        ["title":"Detailpage"
+         "page"[{"id": 1, "text": "QuizPage", "type": "textbox"},
+                {"id": 1, "text": "Are you realdy for test?", "type": "textbox"}, 
+                ]   
+        ]
+    },
+        
+    { 
+        "id" : "Quiz1",
+    	"title": "Quiz1",
+        "page" [
+        {"id": 1, "text": "The word Australia is derived from Latin“terra australis incognita”？","type": "choice" "options": ["true", "false"], "answer": "true","weighting":2},
+        ]
+    },
+        
+    { 
+        "id" : "Quiz2",
+    	"title": "Quiz2",
+        "page" [
+        {"id": 1, "text": "How many states in Australia?","type": "choice" "options": ["A. 5", "B. 6", "C. 7"], "answer": "B. 6","weighting":3},
+        ]
+    },
+        
+    { 
+        "id" : "Quiz3",
+    	"title": "Quiz3",
+        "page" [
+        {"id": 1, "text": "Which city is the capital of Australia?","type": "choice" "options": ["Sydney", "Brisbane", "Melbourne"], "answer": "Melbourne","weighting":4},
+        ]
+    },
+    { 
+        "id" : "Quiz4",
+    	"title": "Quiz4",
+        "page" [
+        {"id": 1, "text": "Which city is the capital and most populous city of the Australian state of Victoria?","type": "textbox", "answer":"melboune","weighting":5},
+        ]
+    },
+        
+    { 
+        "id" : "Quiz5",
+    	"title": "Quiz5",
+        "page" [
+        {"id": 1, "text": "written down all name for state of Australia", "type": "textbox", "answer":["Western Australia", "Queensland","New South Wales","Tasmania","South Australia","Victoria"],"weighting":6},
+        ]
+    },
+
+       { 
+        "id" : "submit",
+    	"title": "submit",
+        "page" [
+        {"id": 1, "text": "Question1", "type": "textbox" "help":"show Question1"},
+  		{"id": 2, "text": "Question2", "type": "textbox" "help":"show Question2"},
+		{"id": 3, "text": "Question1", "type": "textbox" "help":"show Question3"},
+  		{"id": 4, "text": "Question2", "type": "textbox" "help":"show Question4"},
+		{"id": 5, "text": "Question2", "type": "textbox" "help":"show Question5"},
+        {"id": 6, "text": "Quiz1", "type": "button", "help":"go final"},
+        ]
+        },
+
+    { 
+        "id" : "final",
+    	"title": "final",
+        "page" [
+        {"id": 1, "text": "Welcome to Qu's Quiz!", "type": "textbox"},
+  		{"id": 2, "text": "I want registered", "type": "button", "help":"go registered page"},
+        ]
+    },
+]

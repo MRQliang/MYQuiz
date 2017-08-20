@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="MYQuiz.Quiz3"
+	Title="Quiz3"
+	BackgroundColor="Aqua">
+	<ContentPage.Content>
+		<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+		<!--the layout part and the backgroundcolor control-->
+			<Label FontSize="25" Text="Which city is the capital of Australia?" TextColor="Fuchsia">
+			</Label>
+			<!--the Third question of the quiz-->
+			<Label FontSize="12" Text="4 mark" TextColor="Navy"></Label>
+			<!--show the mark of this question -->
+			<Button Text="A. Darwin" TextColor="Black" BackgroundColor="Teal">
+			</Button>
+			<!--Button for answer A and clicked event-->
+			<Button Text="B. Melbourne" TextColor="Black" BackgroundColor="Silver">
+			</Button>
+			<!--Button for answer B and clicked event-->
+			<Button Text="C. Sydney" TextColor="Black" BackgroundColor="Navy">
+			</Button>
+			<!--Button for answer C and clicked event-->
+			<Button Text="D. Canberra" TextColor="Black" BackgroundColor="Yellow">
+			</Button>
+			<!--Button for answer D and clicked event-->
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

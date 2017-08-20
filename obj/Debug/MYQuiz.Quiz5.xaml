@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="MYQuiz.Quiz5"
+	Title="Quiz5"
+	BackgroundColor="Aqua">
+	<ContentPage.Content>
+		<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+			<!--the layout part and the backgroundcolor control-->
+			<Label FontSize="25" Text="written down all name for state of Australia"
+				TextColor="Red">
+			</Label>
+			<!--the fifth question of the quiz-->
+			<Label FontSize="12" Text="6 mark" TextColor="Navy"></Label>
+			<!--show the mark of this question -->
+			<Entry BackgroundColor="White">
+			</Entry>
+			<!--the area use to typein answer-->
+			<Button Text="Save" TextColor="Black" BackgroundColor="Teal">
+			</Button>
+			<!--Save the answer and chick is true or false-->
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

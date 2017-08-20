@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="MYQuiz.MainQuizPage">
+	<MasterDetailPage.Master>
+		<ContentPage Padding="10" BackgroundColor="Gray" Title="Master">
+			<ContentPage.Content>
+				<StackLayout Margin="5,30,5,5">
+					<Label Text="MunePage"></Label>
+					<Button Text="Quiz1" BackgroundColor="Silver"
+					Clicked="Handle_Clicked"></Button>
+					<Button Text="Quiz2" BackgroundColor="Silver"
+					Clicked="Handle_Clicked2"></Button>
+					<Button Text="Quiz3" BackgroundColor="Silver"
+					Clicked="Handle_Clicked3"></Button>
+					<Button Text="Quiz4" BackgroundColor="Silver"
+					Clicked="Handle_Clicked4"></Button>
+					<Button Text="Quiz5" BackgroundColor="Silver"
+					Clicked="Handle_Clicked5"></Button>
+					<!--those 5 button will make detail page show
+					the 5 different quiz page-->
+					<Button Text="subimt"
+					Clicked="Handle_Clicked6"></Button>
+					<!--it will jump to final page-->
+				</StackLayout>
+			</ContentPage.Content>
+		</ContentPage>
+
+	</MasterDetailPage.Master>
+	<!-- information of master page and the buttom will link to each quiz page
+	and the thing will show in detail page-->	
+	<MasterDetailPage.Detail>
+		<ContentPage Padding="10">
+			<ContentPage.Content>
+				<StackLayout Margin="5,30,5,5">
+					<Label Text="QuizPage"></Label>
+					<Label Text="{Binding Model.username}"/>
+					<Label FontSize="30" Text="Are you realdy for test?"></Label>
+				</StackLayout>
+			</ContentPage.Content>
+		</ContentPage>
+	</MasterDetailPage.Detail>
+	<!-- it will show each quizpage in the same page-->
+</MasterDetailPage>

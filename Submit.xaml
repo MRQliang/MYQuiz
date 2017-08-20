@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="MYQuiz.Submit"
+	Title="Submit">
+	<ContentPage.Content>
+		<StackLayout BackgroundColor="Aqua" Margin="10,30,10,20"
+			Padding="10">
+			<Label x:Name="q1" Text="question1 answer:"></Label>
+			<Label Text="{Binding Model.q1}"/>
+			<Label x:Name="q2" Text="question2 answer:"></Label>
+			<Label Text="{Binding Model.q2}"/>
+			<Label x:Name="q3" Text="question3 answer:"></Label>
+			<Label Text="{Binding Model.q3}"/>
+			<Label x:Name="q4" Text="question4 answer:"></Label>
+			<Label Text="{Binding Model.q4}"/>
+			<Label x:Name="q5" Text="question5 answer:"></Label>
+			<Label Text="{Binding Model.q5}"/>
+			<!--show the answr user had input-->
+			<Button Text="submit" BackgroundColor="Silver" Clicked="Handle_Clicked"></Button>
+			<!--jump to finally page get mark-->
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

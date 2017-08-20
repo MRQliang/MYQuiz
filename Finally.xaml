@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="MYQuiz.Finally"
+	Title="Finally">
+	<ContentPage.Content>
+		<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+			<Label FontSize="25" Text="dear:"></Label>
+			<!-- read user name-->
+			<Label FontSize="30" Text="you get XX/20">
+			<!--read user mark-->
+			</Label>
+
+		</StackLayout>
+		
+	</ContentPage.Content>
+</ContentPage>
