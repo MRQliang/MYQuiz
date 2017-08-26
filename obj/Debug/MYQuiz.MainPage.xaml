@@ -11,7 +11,7 @@
 				VerticalOptions="Center" 
 				HorizontalOptions="Center"
 				TextColor="Black"></Label>
-			<Button Text="I want registered" 
+			<Button Text="Start" 
 			BackgroundColor="Olive" 
 			Clicked="Handle_Clicked">
 			</Button>

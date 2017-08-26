@@ -13,15 +13,14 @@
 			<Label FontSize="12" Text="2 mark" TextColor="Navy"></Label>
 			<!--show the mark of this question -->
 	<Button Text="true" 
-			BackgroundColor="Olive"
-			> 
+			BackgroundColor="Olive" Clicked="Handle_Clicked"> 
 
 	</Button>	
 	<!--Button for answer true and clicked event-->
 		<Button Text="false" 
-			BackgroundColor="Olive"
-			> 
+			BackgroundColor="Olive" Clicked="Handle_Clicked2"> 
 	</Button>
+			<Label Text="{Binding Quiz1.xaml.m1}"></Label>
 		<!--Button for answer false and clicked event-->	
 
 

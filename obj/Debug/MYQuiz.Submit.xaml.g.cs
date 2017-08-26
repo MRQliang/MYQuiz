@@ -11,7 +11,7 @@
 namespace MYQuiz {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/liangqu/Desktop/MYQuiz/MYQuiz/Submit.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/liangqu/Desktop/project2/MYQuiz/MYQuiz/Submit.xaml")]
     public partial class Submit : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

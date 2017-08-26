@@ -34,6 +34,7 @@
 			<ContentPage.Content>
 				<StackLayout Margin="5,30,5,5">
 					<Label Text="QuizPage"></Label>
+					<Label Text="{Binding Model.username}"/>
 					<Label FontSize="30" Text="Are you realdy for test?"></Label>
 				</StackLayout>
 			</ContentPage.Content>

@@ -7,14 +7,34 @@
 	<ContentPage.Content>
 		<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
 			<!--the layout part and the backgroundcolor control-->
+			<Label FontSize="25" Text="written down abbreviation of Victoria state"
+				TextColor="Red">
+			</Label>
+			<Entry BackgroundColor="White"></Entry>
 			<Label FontSize="25" Text="written down all name for state of Australia"
 				TextColor="Red">
 			</Label>
+			<Entry BackgroundColor="White"></Entry>
+			<Label FontSize="25" Text="written down all name for state of Australia"
+				TextColor="Red">
+			</Label>
+			<Entry BackgroundColor="White"></Entry>
+			<Label FontSize="25" Text="written down all name for state of Australia"
+				TextColor="Red">
+			</Label>
+			<Entry BackgroundColor="White"></Entry>
+			<Label FontSize="25" Text="written down all name for state of Australia"
+			TextColor="Red">
+			</Label>
+			<Entry BackgroundColor="White"></Entry>
+			<Label FontSize="25" Text="written down all name for state of Australia"
+			TextColor="Red">
+			</Label>
+			<Entry BackgroundColor="White"></Entry>
 			<!--the fifth question of the quiz-->
 			<Label FontSize="12" Text="6 mark" TextColor="Navy"></Label>
 			<!--show the mark of this question -->
-			<Entry BackgroundColor="White">
-			</Entry>
+
 			<!--the area use to typein answer-->
 			<Button Text="Save" TextColor="Black" BackgroundColor="Teal">
 			</Button>
