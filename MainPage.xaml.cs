@@ -10,6 +10,12 @@ namespace MYQuiz
 		public MainPage()
 		{
 			InitializeComponent();
+			Init();
+		}
+
+		void Init()
+		{ 
+			
 		}
 
 		void Handle_Clicked(object sender, System.EventArgs e)

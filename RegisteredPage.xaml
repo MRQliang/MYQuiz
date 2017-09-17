@@ -7,28 +7,32 @@
 		<StackLayout BackgroundColor="Aqua" Margin="10,30,10,20"
 			Padding="10">
 			<!--the layout part and the backgroundcolor control -->
-		<Label Text="username" TextColor="Blue">
+		<Label x:Name="Lbl_Username" Text="Username" TextColor="Blue">
 		</Label>
 			<!--tell user the are use to type in username -->
-		<Entry Text="username">
+		<Entry x:Name="Entry_Username" Placeholder="Username">
 		</Entry>
-		<Label Text="password" TextColor="Blue">
+		<Label x:Name="Lbl_Password" Text="Password" TextColor="Blue">
 		</Label>
 			<!--tell user the are use to type in username -->
-		<Entry Text="password">
+		<Entry x:Name="Entry_Password" Placeholder="Password">
+
 		</Entry>
 			<!--the area type username -->
 
 
-		<Button Text="login" 
+		<Button x:Name="Btn_login"
+				Text="login" 
 				BackgroundColor="Lime"
 				Clicked="Handle_Clicked">
 		</Button>
-		<Button Text="logon" 
+			<!--if registered successful go to start page -->
+		<Button x:Name="Btn_Registered"
+				Text="Registered" 
 				BackgroundColor="Lime"
-				>
+				Clicked="Handle_Clicked2">
 		</Button>
-			<!--the button will jump to quiz page -->
+			<!--the button for registered -->
 
 		</StackLayout>
 	</ContentPage.Content>

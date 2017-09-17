@@ -4,6 +4,8 @@ namespace MYQuiz
 {
 	public partial class App : Application
 	{
+		static TokenDatabaseController tokenDatabase;
+		static UserDatabaseController userDatabase;
 		public App()
 		{
 			InitializeComponent();
@@ -25,5 +27,29 @@ namespace MYQuiz
 		{
 			// Handle when your app resumes
 		}
-	}
+		public static UserDatabaseController UserDatabase
+		{
+			get
+			{
+				if (userDatabase == null)
+				{
+					userDatabase = new UserDatabaseController();
+
+				}
+				return userDatabase;
+			}
+		}
+		public static TokenDatabaseController TokenDatabase
+		{
+			get
+			{
+				if (tokenDatabase == null)
+				{
+					tokenDatabase = new TokenDatabaseController();
+
+				}
+				return tokenDatabase;
+			}
+				}
+			}
 }

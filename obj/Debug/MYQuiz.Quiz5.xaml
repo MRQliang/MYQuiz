@@ -7,28 +7,17 @@
 	<ContentPage.Content>
 		<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
 			<!--the layout part and the backgroundcolor control-->
-			<Label FontSize="25" Text="written down abbreviation of Victoria state"
+			<Label FontSize="25" Text="written down Capital of New South Wales
+ state"
 				TextColor="Red">
 			</Label>
 			<Entry BackgroundColor="White"></Entry>
-			<Label FontSize="25" Text="written down all name for state of Australia"
+			<Label FontSize="25" Text="written down Capital of Queensland state"
 				TextColor="Red">
 			</Label>
 			<Entry BackgroundColor="White"></Entry>
-			<Label FontSize="25" Text="written down all name for state of Australia"
+			<Label FontSize="25" Text="written down Capital of South Australia state"
 				TextColor="Red">
-			</Label>
-			<Entry BackgroundColor="White"></Entry>
-			<Label FontSize="25" Text="written down all name for state of Australia"
-				TextColor="Red">
-			</Label>
-			<Entry BackgroundColor="White"></Entry>
-			<Label FontSize="25" Text="written down all name for state of Australia"
-			TextColor="Red">
-			</Label>
-			<Entry BackgroundColor="White"></Entry>
-			<Label FontSize="25" Text="written down all name for state of Australia"
-			TextColor="Red">
 			</Label>
 			<Entry BackgroundColor="White"></Entry>
 			<!--the fifth question of the quiz-->

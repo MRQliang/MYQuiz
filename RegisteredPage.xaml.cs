@@ -10,10 +10,40 @@ namespace MYQuiz
 		public RegisteredPage()
 		{
 			InitializeComponent();
+			Init();
 		}
-		void Handle_Clicked(object sender, System.EventArgs e)
+
+		void Init()
 		{
+			Entry_Username.Completed += (s, e) => Entry_Password.Focus();
+			Entry_Password.Completed += (s, e) => Handle_Clicked2(s, e);
+		}
+
+		void Handle_Clicked(object sender, EventArgs e)
+		{
+			
 			Navigation.PushAsync(new MainQuizPage());
+
+		}
+
+		void Handle_Clicked2(object sender, EventArgs e)
+		{
+			Token user = new Token(Entry_Username.Text, Entry_Password.Text);
+			//get the data to database//
+			if (user.CheckInformation())
+			{
+				DisplayAlert("Registered",
+							"Registered successful!",
+							"OK");
+			}
+			//Display if registered successful//
+			else
+			{
+				DisplayAlert("Registered",
+							"Registered Not Correct, empty username or password!",
+							"OK");
+			}
+			//Display if registered Not Correct//
 		}
 	}
 }

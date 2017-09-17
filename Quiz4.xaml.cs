@@ -12,5 +12,7 @@ namespace MYQuiz
 			InitializeComponent();
 
 		}
+		public int m4;
+		public string q4; 
 	}
 }

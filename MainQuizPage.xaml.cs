@@ -11,7 +11,14 @@ namespace MYQuiz
 		{
 			InitializeComponent();
 		}
-	void Handle_Clicked(object sender, System.EventArgs e)
+
+		void Handle_Clicked(object sender, System.EventArgs e)
+		{
+			IsPresented = true;
+
+		}
+
+	void Handle_ClickedS(object sender, System.EventArgs e)
 		{
 			Detail = new NavigationPage(new Quiz1());
 		}
