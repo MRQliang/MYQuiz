@@ -26,12 +26,13 @@
 				BackgroundColor="Lime"
 				Clicked="Handle_Clicked">
 		</Button>
+			<!--if registered successful go to start page -->
 		<Button x:Name="Btn_Registered"
 				Text="Registered" 
 				BackgroundColor="Lime"
 				Clicked="Handle_Clicked2">
 		</Button>
-			<!--the button will jump to quiz page -->
+			<!--the button for registered -->
 
 		</StackLayout>
 	</ContentPage.Content>

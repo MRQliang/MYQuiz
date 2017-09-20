@@ -4,7 +4,7 @@ namespace MYQuiz
 {
 	public partial class App : Application
 	{
-		static TokenDatabaseController tokenDatabase;
+		static AMdatabase database;
 		static UserDatabaseController userDatabase;
 		public App()
 		{
@@ -39,17 +39,17 @@ namespace MYQuiz
 				return userDatabase;
 			}
 		}
-		public static TokenDatabaseController TokenDatabase
+		public static AMdatabase Database
 		{
 			get
 			{
-				if (tokenDatabase == null)
+				if (database == null)
 				{
-					tokenDatabase = new TokenDatabaseController();
+					database = new AMdatabase(DependencyService.Get<helper>().GetLocalFilePath("Answerandmark.db3"));
 
 				}
-				return tokenDatabase;
+				return database;
 			}
 				}
-			}
+	}
 }

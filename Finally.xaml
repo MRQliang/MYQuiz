@@ -5,11 +5,15 @@
 	Title="Finally">
 	<ContentPage.Content>
 		<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-			<Label FontSize="25" Text="dear:"></Label>
+			<Label FontSize="25" Text="dear:">
+			</Label>
+			<Label FontSize="25" Text=""/>
 			<!-- read user name-->
-			<Label FontSize="30" Text="you get XX/20">
+			<Label FontSize="30" Text="you get:">
 			<!--read user mark-->
 			</Label>
+			<Label FontSize="30" Text="">
+			<Button Text="History" />
 
 		</StackLayout>
 		

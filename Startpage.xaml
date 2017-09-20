@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="MYQuiz.StartPage"
+	Title="Startpage"
+	BackgroundColor="Aqua">
+	<ContentPage.Content Padding="10">
+		<StackLayout Margin="5,30,5,5">
+			<Label Text="hello"></Label>
+			<Label Text="{binding username}"/>
+			<Label FontSize="30" Text="Are you realdy for test?"></Label>
+			<Button Text="Start" BackgroundColor="Yellow"
+			Clicked="Start"	>
+			</Button>
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

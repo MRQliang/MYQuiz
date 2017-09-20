@@ -90,3 +90,11 @@
 /Users/liangqu/Desktop/project2/MYQuiz/MYQuiz/bin/Debug/MYQuiz.dll.config
 /Users/liangqu/Desktop/project2/MYQuiz/MYQuiz/bin/Debug/MYQuiz.pdb
 /Users/liangqu/Desktop/project2/MYQuiz/MYQuiz/bin/Debug/MYQuiz.dll
+/Users/liangqu/Desktop/project2/MYQuiz/MYQuiz/obj/Debug/MYQuiz.StartPage.xaml
+/Users/liangqu/Desktop/project2/MYQuiz/MYQuiz/obj/Debug/MYQuiz.QuizPage.xaml
+/Users/liangqu/Desktop/project2/MYQuiz/MYQuiz/obj/Debug/MYQuiz.StartPage.xaml.g.cs
+/Users/liangqu/Desktop/project2/MYQuiz/MYQuiz/obj/Debug/MYQuiz.QuizPage.xaml.g.cs
+/Users/liangqu/Desktop/project2/MYQuiz/MYQuiz/bin/Debug/SQLitePCLRaw.core.dll
+/Users/liangqu/Desktop/project2/MYQuiz/MYQuiz/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/liangqu/Desktop/project2/MYQuiz/MYQuiz/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/liangqu/Desktop/project2/MYQuiz/MYQuiz/bin/Debug/SQLite-net.dll

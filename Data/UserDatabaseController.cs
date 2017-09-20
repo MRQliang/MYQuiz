@@ -16,24 +16,24 @@ namespace MYQuiz
 		public UserDatabaseController()
 		{
 			database = DependencyService.Get<ISQlite>().GetConnection();
-			database.CreateTable<Token>();
+			database.CreateTable<User>();
 
 		}
-		public Token GetUser()
+		public User GetUser()
 		{ 
 			lock(locker)
 			{
-				if (database.Table<Token>().Count() == 0)
+				if (database.Table<User>().Count() == 0)
 				{
 					return null;
 				}
 				else
 				{
-					return database.Table<Token>().First();
+					return database.Table<User>().First();
 				}
 			}
 		}
-		public int SaveUser(Token user)
+		public int SaveUser(User user)
 		{ 
 			lock(locker)
 			{
@@ -52,7 +52,7 @@ namespace MYQuiz
 		{ 
 			lock(locker)
 			{
-				return database.Delete<Token>(id);
+				return database.Delete<User>(id);
 			}
 		}
 	}

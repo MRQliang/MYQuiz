@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="MYQuiz.QuizPage"
+	Title="Quiz"
+	BackgroundColor="Aqua">
+	<ContentPage.Content>
+		<StackLayout >
+		<StackLayout x:Name="Question1" BackgroundColor="White" Margin="10,30,10,20"
+			Padding="10">
+				<Label FontSize="25" Text="The word Australia is derived from Latin“terra australis incognita”？"/>
+				<Label x:Name="a1"/>
+				<Button x:Name="Q1A" Text="true" BackgroundColor="Olive"
+				Clicked="Handle_ClickedQ1A"/>
+				<Button x:Name="Q1B" Text="false" BackgroundColor="Olive"
+				Clicked="Handle_ClickedQ1B"/>
+
+		</StackLayout>
+		<StackLayout x:Name="Question2" BackgroundColor="White" Margin="10,30,10,20"
+			Padding="10">
+				<Label FontSize="25" Text="How many states in Australia?" TextColor="Navy"/>
+				<Label x:Name="a2"/>
+				<Button x:Name="Q2A" Text="5" BackgroundColor="Olive"
+				Clicked="Handle_ClickedQ2A"/>
+				<Button x:Name="Q2B" Text="6" BackgroundColor="Olive"
+				Clicked="Handle_ClickedQ2B"/>
+				<Button x:Name="Q2C" Text="7" BackgroundColor="Olive"
+				Clicked="Handle_ClickedQ2C"/>
+
+		</StackLayout>
+		<StackLayout x:Name="Question3" BackgroundColor="White" Margin="10,30,10,20"
+			Padding="10">
+				<Label FontSize="25" Text="Which city is the capital of Australia?" TextColor="Fuchsia"/>
+				<Label x:Name="a3"/>
+				<Button x:Name="Q3A" Text="Darwin" TextColor="Black" BackgroundColor="Teal"
+				Clicked="Handle_ClickedQ3A"/>
+				<Button x:Name="Q3B" Text="Melbourne" TextColor="Black" BackgroundColor="Silver"
+				Clicked="Handle_ClickedQ3B"/>
+				<Button x:Name="Q3C" Text="Sydney" TextColor="Black" BackgroundColor="Navy"
+				Clicked="Handle_ClickedQ3C"/>
+				<Button x:Name="Q3D" Text="Canberra" TextColor="Black" BackgroundColor="Yellow"
+				Clicked="Handle_ClickedQ3D"/>
+
+		</StackLayout>
+		<StackLayout x:Name="Question4" BackgroundColor="White" Margin="10,30,10,20"
+			Padding="10">
+				<Label FontSize="25" Text="Which city is the capital and most populous city of the Australian state of Victoria?"
+				TextColor="Green"/>
+				<Entry  x:Name="a4" Placeholder="writen down your answer"/>
+
+		</StackLayout>
+		<StackLayout x:Name="Question5" BackgroundColor="White" Margin="10,30,10,20"
+			Padding="10">
+				<Label FontSize="25" Text="written down Capital of New South Wales
+ state" TextColor="Red"/>
+				<Entry x:Name="a5" Placeholder="writen down your answer"/>
+				<Button Text="SAVE" BackgroundColor="Yellow" Clicked="SAVE_Clicked"/>
+		</StackLayout>
+			<StackLayout x:Name="Check" BackgroundColor="White" Margin="10,30,10,20"
+			Padding="10">
+			<Button Text="CHECK" BackgroundColor="Yellow" Clicked="Check_Clicked"/>
+			</StackLayout>
+			
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

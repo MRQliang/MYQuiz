@@ -28,13 +28,14 @@ namespace MYQuiz
 
 		void Handle_Clicked2(object sender, EventArgs e)
 		{
-			Token user = new Token(Entry_Username.Text, Entry_Password.Text);
+			User user = new User(Entry_Username.Text, Entry_Password.Text);
 			//get the data to database//
 			if (user.CheckInformation())
 			{
 				DisplayAlert("Registered",
 							"Registered successful!",
 							"OK");
+				App.UserDatabase.SaveUser(user);
 			}
 			//Display if registered successful//
 			else
